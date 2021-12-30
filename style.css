@@ -1,0 +1,84 @@
+/* default styling*/
+html{
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
+/*descendent selector*/
+header h1{
+        font-weight: 400;
+}
+
+header {
+    display: flex;
+
+    /*To give space between Dev101 and our list*/
+    justify-content:space-between;
+    
+    margin : 0 3rem;
+
+}
+
+nav{
+    /*allows you to move nav (up-down,right-left) */
+    position:relative;
+
+    top:1rem;
+    width: 20rem;
+}
+
+/*Remove underlines from the hyperlink*/
+a{
+    text-decoration: none;
+}
+
+/*Pseudo classes*/
+a:hover{
+    color: red;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    
+    /*To remove the bullet points from list*/
+    list-style:none;
+    font-size: 1.5rem;
+}
+/*Class selector*/
+.showcase_img {
+        /*view port width*/
+        width: 95vw;
+        margin:1rem;
+}
+
+article{
+    display:flex;
+    margin: 1.5rem;
+}
+
+.container{
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
+h2{
+    font-weight: 600;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    height: 3rem;
+    display: flex;
+    justify-content: center;    /*to horizontally center*/
+    align-items: center;        /*To vertically center*/
+    font-size: 1rem;
+}
